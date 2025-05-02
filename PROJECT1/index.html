@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+          <img src="vv.jpg"/>
+        </div>
+        <div class="right">
+          <form class="form-box">
+            <h2>Employee Registration</h2>
+    
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+    
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact" required>
+    
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+    
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+    
+            <label for="department">Department</label>
+            <select id="department" name="department">
+              <option value="">Select</option>
+              <option value="hr">HR</option>
+              <option value="sales">Sales</option>
+              <option value="development">Development</option>
+              <option value="marketing">Marketing</option>
+              <option value="others">Others</option>
+            </select>
+    
+            <label>Gender</label>
+            <div class="radio-group">
+              <label><input type="radio" name="gender" value="male"> Male</label>
+              <label><input type="radio" name="gender" value="female"> Female</label>
+              <label><input type="radio" name="gender" value="other"> Prefer not to say</label>
+            </div>
+    
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
